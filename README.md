@@ -56,6 +56,18 @@ https://httpie.io/docs/cli/debian-and-ubuntu
 
 https://github.com/anchore/grype
 
+### Tilt
+
+https://docs.tilt.dev/install.html
+
+## Octant
+
+https://reference.octant.dev/?path=/story/docs-intro--page
+
+## Knative
+
+https://knative.dev/docs/install/quickstart-install/#before-you-begin
+
 ### Sources
 
 https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main
