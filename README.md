@@ -58,5 +58,5 @@ https://github.com/anchore/grype
 
 ### Sources
 
-https://github.com/ThomasVitale/cloud-native-spring-in-action
+https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main
 
