@@ -3,10 +3,10 @@ Developing-Cloud-Native-Applications
 
 ### Visual Stdio Code
 
-WSL
-Extension Pack for Java
-Gradle for Java
-Spring Boot Extension Pack
+    WSL
+    Extension Pack for Java
+    Gradle for Java
+    Spring Boot Extension Pack
 
 
 ### Init & Java
