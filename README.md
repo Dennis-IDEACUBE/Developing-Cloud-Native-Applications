@@ -1,9 +1,10 @@
 ## Developing-Cloud-Native-Applications
-Developing-Cloud-Native-Applications
 
-### Visual Stdio Code
+### Visual Stdio Code & Extensions
 
+    Install Visual Studio Code   
     WSL
+    - After jdk 17
     Extension Pack for Java
     Gradle for Java
     Spring Boot Extension Pack
