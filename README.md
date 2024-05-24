@@ -18,8 +18,8 @@ Spring Boot Extension Pack
 
 ### Docker
 
-    $ https://docs.docker.com/engine/install/ubuntu/
-    $ https://docs.docker.com/engine/install/linux-postinstall/
+    https://docs.docker.com/engine/install/ubuntu/
+    https://docs.docker.com/engine/install/linux-postinstall/
     $ sudo chmod 666 /var/run/docker.sock
 
 ### Minikube
