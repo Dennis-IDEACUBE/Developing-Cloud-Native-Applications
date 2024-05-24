@@ -60,11 +60,16 @@ https://github.com/anchore/grype
 
 https://docs.tilt.dev/install.html
 
-## Octant
+### Octant
 
 https://reference.octant.dev/?path=/story/docs-intro--page
 
-## Knative
+### Kubeval
+
+https://github.com/instrumenta/kubeval(deprecated)
+https://github.com/yannh/kubeconform?tab=readme-ov-file
+
+### Knative
 
 https://knative.dev/docs/install/quickstart-install/#before-you-begin
 
