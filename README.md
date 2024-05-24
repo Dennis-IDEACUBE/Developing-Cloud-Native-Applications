@@ -9,31 +9,47 @@ Gradle for Java
 Spring Boot Extension Pack
 
 
-### Init
+### Init & Java
 
     $ sudo apt install zip
-    
-    sudo vi /etc/.bashrc
+    $ curl -s "https://get.sdkman.io" | bash
+    $ sdk list java
+    $ sdk install java 17.0.3-tem
+    $ sdk default java 17.0.3-tem
+    $ java --version
+    $ sdk use java 17.0.3-tem
+    $ sdk current java
+    $ sudo vi /etc/.bashrc
     export JAVA_HOME-/home/user1/.sdkman/candidates/java/current
 
 ### Docker
 
-    https://docs.docker.com/engine/install/ubuntu/
-    https://docs.docker.com/engine/install/linux-postinstall/
+https://docs.docker.com/engine/install/ubuntu/
+https://docs.docker.com/engine/install/linux-postinstall/
+
     $ sudo chmod 666 /var/run/docker.sock
+    $ docker login
+    $ docker pull ubuntu:22.04
 
 ### Minikube
 
-    $ https://minikube.sigs.k8s.io/docs/start/
+https://minikube.sigs.k8s.io/docs/start/
+
+    $ minikube start --driver=docker
+    $ minikube config set driver docker
 
 ### Kubectl
 
-    $ https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+
+    $ kubectl get nodes
 
 ### Httpie
 
 https://httpie.io/
 https://httpie.io/docs/cli/debian-and-ubuntu
+
+    $ http pie.dev/get
 
 ### grype 
 
