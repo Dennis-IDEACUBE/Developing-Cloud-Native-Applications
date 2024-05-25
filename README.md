@@ -21,7 +21,7 @@ Install Visual Studio Code(https://code.visualstudio.com/download)
     $ java --version
     $ sdk use java 17.0.3-tem
     $ sdk current java
-    $ sudo vi /etc/.bashrc
+    $ nano ~/.bashrc
     export JAVA_HOME=/home/user1/.sdkman/candidates/java/current
 
 ### Docker
