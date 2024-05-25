@@ -1,5 +1,15 @@
 ## Developing-Cloud-Native-Applications
 
+### Settings VirtualBox
+Install VirtualBox
+
+    # run the command prompt in Windows
+    C:\Program Files\Oracle\VirtualBox
+    VBoxManage setextradata global GUI/Input/HostKeyCombination 162,164
+    VBoxManage natnetwork add --netname NatNetwork --network "192.168.15.0/24" --enable --dhcp off --port-forward-4 "ssh:tcp:[]:25:[192.168.15.101]:22"
+
+
+
 ### Visual Stdio Code & Extensions
 
 Install Visual Studio Code(https://code.visualstudio.com/download)
