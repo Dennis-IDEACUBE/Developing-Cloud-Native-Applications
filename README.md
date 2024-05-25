@@ -9,7 +9,7 @@ Install VirtualBox(https://www.virtualbox.org/wiki/Downloads)
     VBoxManage setextradata global GUI/Input/HostKeyCombination 162,164
     VBoxManage natnetwork add --netname NatNetwork --network "192.168.15.0/24" --enable --dhcp off --port-forward-4 "ssh:tcp:[]:25:[192.168.15.30]:22"
 
-Import VirtuaBox Image(ova)
+Import VirtuaBox Image(ova) - ova image distributed in class
 
 ### Visual Stdio Code & Extensions
 
@@ -19,8 +19,9 @@ Install Visual Studio Code(https://code.visualstudio.com/download)
 
     # Download & Copy id_rsa to C:\Users\사용자\.ssh
     # Run the command prompt in Windows
-    
-        
+    cd C:\Users\사용자\.ssh
+    dir
+    # Check whether the config file exists
     # Setting SSH Private Key
     # filename : config (C:\Users\사용자\.ssh)
     ############################################
