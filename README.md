@@ -2,7 +2,9 @@
 
 ### Visual Stdio Code & Extensions
 
-    Install Visual Studio Code(https://code.visualstudio.com/download)   
+Install Visual Studio Code
+https://code.visualstudio.com/download 
+
     WSL
     - After jdk 17
     Extension Pack for Java
