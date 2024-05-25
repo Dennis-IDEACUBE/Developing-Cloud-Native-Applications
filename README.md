@@ -104,6 +104,11 @@ https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
     
     $ kubectl get nodes
 
+### Checklist for example execution
+
+    $ cd ~/cloud-native-spring-in-action-sb-3-main
+    $ find ./ -type f -name 'gradlew' -exec chmod 755 {} \;
+
 ### Httpie
 
 https://httpie.io/
