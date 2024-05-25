@@ -130,6 +130,8 @@ https://httpie.io/docs/cli/debian-and-ubuntu
 
 https://github.com/anchore/grype
 
+    $ curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sudo sh -s -- -b /usr/local/bin
+
 ### Tilt
 
 https://docs.tilt.dev/install.html
