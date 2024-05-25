@@ -3,23 +3,30 @@
 ### VirtualBox
 Install VirtualBox(https://www.virtualbox.org/wiki/Downloads)
 
-    # run the command prompt in Windows
+    # Run the command prompt in Windows
     C:\Program Files\Oracle\VirtualBox
     VBoxManage setextradata global GUI/Input/HostKeyCombination 162,164
     VBoxManage natnetwork add --netname NatNetwork --network "192.168.15.0/24" --enable --dhcp off --port-forward-4 "ssh:tcp:[]:25:[192.168.15.101]:22"
-
-
-
 ### Visual Stdio Code & Extensions
 
 Install Visual Studio Code(https://code.visualstudio.com/download)
 
-    WSL
+    WSL(or Remote - SSH)
+    
+    # Setting SSH Private Key
+    # filename : config (C:\Users\사용자\.ssh)
+    ############################################
+    Host CloudNativeDev
+    HostName localhost
+    Port 22
+    User user1
+    IdentityFile C:\Users\사용자\.ssh\id_rsa
+    ###########################################
+
     - After jdk 17
     Extension Pack for Java
     Gradle for Java
     Spring Boot Extension Pack
-
 
 ### Init & Java
 
