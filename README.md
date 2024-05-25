@@ -11,7 +11,7 @@ Install VirtualBox(https://www.virtualbox.org/wiki/Downloads)
 
 Install Visual Studio Code(https://code.visualstudio.com/download)
 
-    WSL(or Remote - SSH)
+    WSL(or Remote - SSH) - Extension
     
     # Setting SSH Private Key
     # filename : config (C:\Users\사용자\.ssh)
@@ -23,10 +23,10 @@ Install Visual Studio Code(https://code.visualstudio.com/download)
     IdentityFile C:\Users\사용자\.ssh\id_rsa
     ###########################################
 
-    - After jdk 17
-    Extension Pack for Java
-    Gradle for Java
-    Spring Boot Extension Pack
+    # After jdk 17
+    Extension Pack for Java - Extension
+    Gradle for Java - Extension
+    Spring Boot Extension Pack - Extension
 
 ### Init & Java
 
