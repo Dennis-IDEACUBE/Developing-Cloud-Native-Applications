@@ -7,7 +7,7 @@ Install VirtualBox(https://www.virtualbox.org/wiki/Downloads)
     # Run the command prompt in Windows
     C:\Program Files\Oracle\VirtualBox
     VBoxManage setextradata global GUI/Input/HostKeyCombination 162,164
-    VBoxManage natnetwork add --netname NatNetwork --network "192.168.15.0/24" --enable --dhcp off --port-forward-4 "ssh:tcp:[]:25:[192.168.15.30]:22"
+    VBoxManage natnetwork add --netname NatNetwork --network "192.168.15.0/24" --enable --dhcp off --port-forward-4 "ssh:tcp:[]:22:[192.168.15.30]:22"
 
 Import VirtuaBox Image(ova) - ova image distributed in class
 
